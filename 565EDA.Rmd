@@ -9,7 +9,7 @@ output: html_document
 House Prices Prediction
 ===
 
-We take will use the [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) data from Kaggle. The measured variables can be seen [here](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
+We take will use the [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) data from Kaggle. The measured variables can be seen [here](https://github.com/Agaresd47/House_Price_Prediction/blob/main/house-prices-advanced-regression-techniques/Data%20Description.pdf)
 ```{r, eval=TRUE, include= FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 # Load the required library
@@ -99,6 +99,9 @@ pairs(~ SalePrice+BsmtUnfSF+TotalBsmtSF+GarageArea+WoodDeckSF+OpenPorchSF, data=
 
 ```
 
-We excluded Variables due to their insignificant information and fixed scales that graphs cannot represent:
-  
-## OverallQual, OverallCond, BsmtFinSF1, BsmtFinSF2, MSSubClass, LowQualFinSF, BsmtFullBath, BsmtHalfBath, FullBath, HalfBath, BedroomAbvGr, KitchenAbvGr, Fireplaces, GarageYrBlt, GarageCars, EnclosedPorch, X3SsnPorch, ScreenPorch, PoolArea, MiscVal, MoSold, YrSold
+We excluded Variables due to their insignificant information and fixed scales that graphs cannot represent: 
+
+OverallQual, OverallCond, BsmtFinSF1, BsmtFinSF2, MSSubClass, LowQualFinSF, BsmtFullBath, BsmtHalfBath, FullBath, HalfBath, BedroomAbvGr, KitchenAbvGr, Fireplaces, GarageYrBlt, GarageCars, EnclosedPorch, X3SsnPorch, ScreenPorch, PoolArea, MiscVal, MoSold, YrSold
+
+
+
